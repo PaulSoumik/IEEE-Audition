@@ -110,6 +110,7 @@ header nav ul li a{
 @media only screen and (max-width: 860px){
 	header{
 		font-size: 0.8em;
+		padding-left: 0.1rem;
 	}
 	header nav ul li{
 		padding-right: 0.5rem;
