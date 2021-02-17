@@ -78,6 +78,13 @@ body{
 .button-box p{
 	font-size: 2em;
 }
+.landing-graphics .small-screen{
+	display: none;
+}
+.landing-graphics .big-screen{
+	display: block;
+}
+
 @media only screen and (min-width: 1040px){
 	.langing-graphics{
 	}
@@ -110,6 +117,12 @@ body{
 		font-size: 3.5rem;
 		margin-left: 0;
 		margin-top: 0;
+	}
+	.landing-graphics .small-screen{
+		display: block;
+	}
+	.landing-graphics .big-screen{
+		display: none;
 	}
 	.landing .landing-bg-graphics{
 		position: absolute;
