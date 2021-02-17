@@ -53,19 +53,21 @@ header nav ul li a{
 	background-color: white;
 	border-radius: 0.435rem;
 	max-width: 800px;
-	height: 250vh;
+	height: 290vh;
 	margin: 2rem auto;
 	overflow: hidden;
 		position: relative;
 	z-index: 1;
 	border: 1px solid #fff;
+	padding-top: 0;
 }
 .container .googleform-container{
 	position: relative;
 	z-index: 1;
 }
 .container .googleform-container iframe{
-	height: 252vh;
+	height: 290vh;
+	width: 100%;
 }
 .container svg.top-image{
 	position: absolute;
@@ -82,6 +84,32 @@ header nav ul li a{
 	width: 100%;
 	margin-left: -2rem;
 
+}
+
+.banner-top{
+	width: calc(100%+4rem);
+	background-color: black;
+	background-image: url("bg-banner.webp");
+	background-size: cover;
+	display: flex;
+	background-position: 0% 100%;
+	padding-top: 8rem;
+	padding-bottom: 2rem;
+	margin-left: -2rem;
+	margin-right: -2rem;
+	justify-content: center;
+	align-items: center;
+
+}
+.banner-top .banner-ieee-logo{
+	width: 17%;
+	padding-right: 2rem;
+	margin-left: -2rem;
+}
+.banner-top .text-heading{
+	font-size: 2em;
+	font-weight: 200;
+	color: #fff;
 }
 
 
@@ -139,7 +167,7 @@ header nav ul li a{
 		display: block;
 	}
 	.container{
-		height: 222vh;
+		height: 252vh;
 	}
 	.container .googleform-container{
 		position: relative;
@@ -147,7 +175,7 @@ header nav ul li a{
 		display: flex;
 	}
 	.container .googleform-container iframe{
-		height: 220vh;
+		height: 250vh;
 		width: 100%;
 	}
 }
