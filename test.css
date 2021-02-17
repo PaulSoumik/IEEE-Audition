@@ -89,12 +89,7 @@ header nav ul li a{
 .banner-top{
 	width: calc(100%+4rem);
 	background-color: black;
-	background-image: url("bg-banner.webp");
-	background-size: cover;
 	display: flex;
-	background-position: 0% 100%;
-	padding-top: 8rem;
-	padding-bottom: 2rem;
 	margin-left: -2rem;
 	margin-right: -2rem;
 	justify-content: center;
@@ -102,14 +97,10 @@ header nav ul li a{
 
 }
 .banner-top .banner-ieee-logo{
-	width: 17%;
-	padding-right: 2rem;
-	margin-left: -2rem;
+	width: 100%;
 }
-.banner-top .text-heading{
-	font-size: 2em;
-	font-weight: 200;
-	color: #fff;
+.banner-top .banner-ieee-logo img{
+	width: 100%;
 }
 
 
