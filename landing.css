@@ -75,6 +75,9 @@ body{
 	color: #fff;
 	cursor: pointer;
 }
+.button-box p{
+	font-size: 2em;
+}
 @media only screen and (min-width: 1040px){
 	.langing-graphics{
 	}
