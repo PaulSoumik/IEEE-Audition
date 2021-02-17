@@ -122,6 +122,7 @@ header nav ul li a{
 		border: none;
 		border-radius: unset;
 		padding: 5px;
+		margin-top: 0;
 
 	}
 	.container svg.top-image{
